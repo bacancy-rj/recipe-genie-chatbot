@@ -4,6 +4,8 @@ A chatbot that recommends recipes based on the ingredients a user already
 has, plus optional cuisine, diet, and time constraints. Built with
 **Next.js 16 (App Router) + Node.js**, all plain JavaScript (no TypeScript).
 
+**Live demo:** [recipe-genie-chatbot.vercel.app](https://recipe-genie-chatbot.vercel.app/)
+
 ## Stack
 
 - **Next.js 16.3.6** (latest) — App Router, Turbopack
