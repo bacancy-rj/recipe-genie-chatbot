@@ -1,10 +1,8 @@
-# Recipe Genie (Next.js) — Ingredient-Based Recipe Recommendation Chatbot
+# Recipe Genie — Ingredient-Based Recipe Recommendation Chatbot
 
 A chatbot that recommends recipes based on the ingredients a user already
-has, plus optional cuisine, diet, and time constraints. This is the
-JavaScript/Node rebuild of the original Python prototype, built for a MERN
-background: **Next.js 16 (App Router) + Node.js**, all plain JavaScript
-(no TypeScript, no Python).
+has, plus optional cuisine, diet, and time constraints. Built with
+**Next.js 16 (App Router) + Node.js**, all plain JavaScript (no TypeScript).
 
 ## Stack
 
@@ -167,10 +165,3 @@ Steps:
 - Add an LLM as an optional generation layer on top of the same retrieval
   step for more natural phrasing, while keeping retrieval as the source of
   truth to avoid hallucinated recipes.
-
-## History
-
-This repo originally held a Python/Flask + scikit-learn prototype (same
-dataset, same recommendation approach). It was rebuilt in this Next.js/Node
-stack and replaced the Python version here; the old commits are still in
-this repo's git history if you want to compare the two.
