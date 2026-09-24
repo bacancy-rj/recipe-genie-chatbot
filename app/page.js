@@ -79,7 +79,7 @@ export default function Home() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             placeholder="I have paneer, tomato and onion..."
-            className="flex-1 px-3 py-2.5 border border-gray-300 rounded-lg text-sm outline-none focus:border-[#2f6f4e]"
+            className="flex-1 px-3 py-2.5 border border-gray-300 rounded-lg text-sm outline-none focus:border-[#2f6f4e] bg-white text-gray-900 placeholder:text-gray-400"
           />
           <button
             type="submit"
